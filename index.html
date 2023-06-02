@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Moment of Bliss - Irina Kaptelova</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <div class="container">
+    <div class="envelope-wrapper">
+      <div class="envelope">
+        <div class="letter">
+          <div class="text">
+            <strong>Dear Queen Kaptelova</strong>
+            <p>Happy birthday to the rockstar who can do it all. I love everything about you, especially what you do and all that you have accomplished. Wishing you a happy day :)</br>
+              </br>
+             Наймиліша крихітка Каптелова </br>
+              </br>
+              <strong>From: Bad People</strong>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="heart"></div>
+    </div>
+  </div>
+  <script>
+    const envelope = document.querySelector('.envelope-wrapper');
+    envelope.addEventListener('click', () => {
+      envelope.classList.toggle('flap');
+    });
+  </script>
+</body>
+</html>
